@@ -3,10 +3,9 @@ import App from './app';
 import { Link } from 'react-router';
 
 const Apps = ({ appsData }) => {
-	console.log(appsData)
+	//console.log(appsData)
 	const trendingApps = appsData.sort((a,b) => b.downloads - a.downloads).slice(0,6)
-		//.filter(app => app.status === 'trending')
-        console.log(trendingApps)
+        //console.log(trendingApps)
 	return (
 		<div>
 			<h1 className="mt-20 text-center font-bold text-5xl">Trending Apps</h1>

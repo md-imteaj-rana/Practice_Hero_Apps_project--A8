@@ -3,7 +3,7 @@ const logoPng = "../../public/imgs/logo.png"
 
 const Footer = () => {
     return (
-			<div className='max-w-[1250px]'>
+			<div className='md:w-[1330px] md:-ml-14 h-20'>
 				<div>
 					<footer className="footer sm:footer-horizontal bg-neutral text-neutral-content p-10 justify-between">
 						<aside>
