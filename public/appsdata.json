@@ -1,0 +1,245 @@
+[
+  {
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
+    "title": "TaskMaster Pro",
+    "companyName": "NovaSoft",
+    "id": 1,
+    "description": "A productivity tool to manage tasks efficiently.",
+    "size": 45,
+    "reviews": 1200,
+    "ratingAvg": 4.5,
+    "downloads": 50000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 620 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+    "title": "FitTrack",
+    "companyName": "Healthify Ltd",
+    "id": 2,
+    "description": "A fitness tracking app for workouts and health monitoring.",
+    "size": 38,
+    "reviews": 980,
+    "ratingAvg": 4.2,
+    "downloads": 72000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 450 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475",
+    "title": "PhotoBlend",
+    "companyName": "PixelForge",
+    "id": 3,
+    "description": "A powerful AI photo editor.",
+    "size": 55,
+    "reviews": 1500,
+    "ratingAvg": 4.7,
+    "downloads": 110000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 310 },
+      { "name": "5 star", "count": 1010 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1492724441997-5dc865305da7",
+    "title": "Learnify",
+    "companyName": "EduLabs",
+    "id": 4,
+    "description": "An online learning platform.",
+    "size": 72,
+    "reviews": 860,
+    "ratingAvg": 4.1,
+    "downloads": 65000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 260 },
+      { "name": "5 star", "count": 200 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1506765515384-028b60a970df",
+    "title": "WeatherNow",
+    "companyName": "SkyTech",
+    "id": 5,
+    "description": "Real-time weather updates and forecasts.",
+    "size": 30,
+    "reviews": 2200,
+    "ratingAvg": 4.3,
+    "downloads": 200000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 140 },
+      { "name": "3 star", "count": 320 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1040 }
+    ]
+  },
+
+  {
+    "image": "https://images.unsplash.com/photo-1503602642458-232111445657",
+    "title": "CryptoWatch",
+    "companyName": "BlockHive",
+    "id": 6,
+    "description": "Live crypto tracker with price alerts.",
+    "size": 42,
+    "reviews": 760,
+    "ratingAvg": 4.0,
+    "downloads": 47000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 110 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 230 },
+      { "name": "5 star", "count": 150 }
+    ]
+  },
+
+  {
+    "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f",
+    "title": "NoteFast",
+    "companyName": "SmartApps",
+    "id": 7,
+    "description": "A fast and minimal note-taking app.",
+    "size": 18,
+    "reviews": 420,
+    "ratingAvg": 4.4,
+    "downloads": 33000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 70 },
+      { "name": "4 star", "count": 130 },
+      { "name": "5 star", "count": 170 }
+    ]
+  },
+
+  {
+    "image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2",
+    "title": "MindRelax",
+    "companyName": "CalmWave",
+    "id": 8,
+    "description": "Meditation & sleep improvement app.",
+    "size": 60,
+    "reviews": 980,
+    "ratingAvg": 4.6,
+    "downloads": 88000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 260 },
+      { "name": "5 star", "count": 590 }
+    ]
+  },
+
+  {
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+    "title": "BudgetWise",
+    "companyName": "FinTrack",
+    "id": 9,
+    "description": "Track expenses and manage your budget.",
+    "size": 35,
+    "reviews": 540,
+    "ratingAvg": 4.2,
+    "downloads": 41000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 180 },
+      { "name": "5 star", "count": 130 }
+    ]
+  },
+
+  {
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475",
+    "title": "LanguageGo",
+    "companyName": "LingoSoft",
+    "id": 10,
+    "description": "Learn languages through interactive lessons.",
+    "size": 58,
+    "reviews": 2100,
+    "ratingAvg": 4.8,
+    "downloads": 150000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 380 },
+      { "name": "5 star", "count": 1490 }
+    ]
+  },
+
+  {
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30",
+    "title": "RideSafe",
+    "companyName": "UrbanMove",
+    "id": 11,
+    "description": "A ride safety and alert assistant.",
+    "size": 33,
+    "reviews": 640,
+    "ratingAvg": 4.0,
+    "downloads": 52000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 150 }
+    ]
+  },
+
+  {
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
+    "title": "MusicFlow",
+    "companyName": "SoundWave",
+    "id": 12,
+    "description": "High-quality music streaming app.",
+    "size": 90,
+    "reviews": 3500,
+    "ratingAvg": 4.6,
+    "downloads": 300000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 2100 }
+    ]
+  },
+
+
+  {
+    "image": "https://images.unsplash.com/photo-1492724441997-5dc865305da7",
+    "title": "TravelHero",
+    "companyName": "WanderSoft",
+    "id": 40,
+    "description": "Plan travels with smart AI itineraries.",
+    "size": 70,
+    "reviews": 4300,
+    "ratingAvg": 4.9,
+    "downloads": 350000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 3140 }
+    ]
+  }
+]
