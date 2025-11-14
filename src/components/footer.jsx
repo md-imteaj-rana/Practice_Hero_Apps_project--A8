@@ -9,7 +9,7 @@ const Footer = () => {
 						<aside>
 							<div className="flex">
 								<img
-									className="flex-1 w-[40px] h-[40px]"
+									className="flex-1 w-10 h-10"
 									src={logoPng}
 									alt=""
 								/>

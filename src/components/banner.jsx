@@ -63,7 +63,7 @@ const Banner = () => {
 				</div>
 
 				{}
-				<div className="bg-gradient-l-to-r from-[#632EE3] to-[#9F62F2] max-w-[1250px] flex flex-col md:flex-row justify-around items-center p-8 text-white m gap-6 py-20">
+				<div className="bg-linear-to-r from-[#632EE3] to-[#9F62F2] md:w-[1250px] flex flex-col md:flex-row justify-around items-center p-8 text-white gap-6 py-20 rounded-2xl">
 					<div className="text-center">
 						<p className="text-sm sm:text-base md:text-lg">Total Downloads</p>
 						<h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold">

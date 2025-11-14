@@ -7,11 +7,11 @@ const EveryApp = ({ singleApp }) => {
     console.log(singleApp);
     const { image, title, downloads, reviews, id } = singleApp;
 	return (
-		<Link to={`./appdetails.jsx/${id}`}>
+		<Link to={`./appdetails/${id}`}>
 			<div>
 				<div className="card bg-base-100 w-96 shadow-lg px-5">
 					<figure>
-						<img src={image} alt="Shoes" />
+						<img src={image} alt=""/>
 					</figure>
 					<div className=" card-body">
 						<h2 className="px-5 card-title">{title}</h2>

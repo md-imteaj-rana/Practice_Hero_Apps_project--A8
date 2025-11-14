@@ -57,7 +57,7 @@ const AppDetails = () => {
 
 					<div className="flex flex-col md:flex-row items-center justify-between gap-8 md:gap-20 border-y-2 border-gray-200 p-4 md:p-8">
 						<div>
-							<span className="w-[40px] h-[40px]">
+							<span className="w-10 h-10">
 								<FcDownload />
 							</span>
 							<p>Downloads</p>

@@ -11,9 +11,9 @@ const App = ({ singleApp }) => {
 	return (
 		<Link to={`./appdetails/${id}`}>
 			<div>
-				<div className="card bg-base-100 w-95 shadow-lg px-5">
+				<div className="card bg-base-200 w-95 shadow-lg px-2 pt-5 border border-gray-200">
 					<figure>
-						<img className=" w-[30px] h-[35px]" src={image} alt="" />
+						<img className="" src={image} alt="" />
 					</figure>
 					<div className=" card-body">
 						<h2 className="px-5 card-title">{title}</h2>

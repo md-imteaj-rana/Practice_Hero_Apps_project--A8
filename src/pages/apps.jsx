@@ -15,7 +15,7 @@ const Apps = ({ appsData }) => {
 			</p>
 
 			<Suspense fallback={<div>Loading...</div>}>
-				<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 p-4">
+				<div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-4 max-w-[1250px]">
 					{trendingApps.map(singleApp => (
 						<App key={singleApp.id} singleApp={singleApp} />
 					))}
@@ -24,7 +24,7 @@ const Apps = ({ appsData }) => {
 
 			<div className="flex justify-center mt-8">
 				<Link to="/allApps">
-					<button className="btn bg-gradient-l-to-r from-[#632EE3] to-[#9F62F2] text-white mb-5">
+					<button className="btn bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white mb-5">
 						Show All
 					</button>
 				</Link>
