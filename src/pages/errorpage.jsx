@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router';
-const errorImage = "../../public/imgs/error-404.png"
-const errorImage2 = "../../public/imgs/App-Error.png"
+const errorImage = "/imgs/error-404.png"
+const errorImage2 = "/imgs/App-Error.png"
 
 const ErrorPage = () => {
     return (

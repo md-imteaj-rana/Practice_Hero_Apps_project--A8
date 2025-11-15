@@ -1,5 +1,5 @@
 import React from 'react';
-const logoPng = "../../public/imgs/logo.png"
+const logoPng = "/imgs/logo.png"
 
 const Footer = () => {
     return (

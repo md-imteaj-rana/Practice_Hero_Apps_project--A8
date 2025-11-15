@@ -1,7 +1,7 @@
 import React from 'react';
-const appStore = '../../public/imgs/App_Store_(iOS)-Logo.wine.png';
-const playStore = '../../public/imgs/images.jpeg';
-const heroPng = '../../public/imgs/hero.png';
+const appStore = '/imgs/App_Store_(iOS)-Logo.wine.png';
+const playStore = '/imgs/images.jpeg';
+const heroPng = '/imgs/hero.png';
 
 
 const Banner = () => {

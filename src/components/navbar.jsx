@@ -2,7 +2,7 @@ import React from 'react';
 import { Github } from 'lucide-react';
 import { Link } from 'react-router';
 import { NavLink } from 'react-router';
-const logoPng = '../../public/imgs/logo.png';
+const logoPng = '/imgs/logo.png';
 
 const Navbar = () => {
 	const links = (

@@ -9,12 +9,19 @@ const InstalledApps = () => {
 	const data = useLoaderData();
 
 const refreshInstalledList = () => {
-    const storedAppData = getStoredApp();
-    const convertedStoredApp = storedAppData.map(id => parseInt(id));
-    const installedAppList = data.filter(app =>
-        convertedStoredApp.includes(app.id)
-    );
-    setAppList(installedAppList);
+	const storedAppData = getStoredApp();
+		const convertedStoredApp = storedAppData.map(id => parseInt(id));
+		const installedAppList = data.filter(app =>
+			convertedStoredApp.includes(app.id)
+		);
+		console.log(installedAppList)
+		setAppList(installedAppList);
+    //const storedAppData = getStoredApp();
+    // const convertedStoredApp = storedAppData.map(id => parseInt(id));
+    // const installedAppList = data.filter(app =>
+    //     convertedStoredApp.includes(app.id)
+    // );
+   // setAppList(installedAppList);
 };
 
 
