@@ -1,7 +1,16 @@
 import React from 'react';
-
+import { removeFromStoredDB } from '../add_to_db';
 const InstalledApp = ({ singleApp }) => {
-	const { image, title, downloads, ratingAvg, size } = singleApp;
+	const { id, image, title, downloads, ratingAvg, size } = singleApp;
+
+	const [isUnInstalled, setIsUnInstalled] = useState(false);
+	const handleUnInstall = id => {
+		removeFromStoredDB(id);
+		//addToStoredDB(id);
+		setIsUnInstalled(true);
+		refreshInstalledList(); 
+	};
+	
 	return (
 		<div className="flex items-center justify-between bg-white shadow-md rounded-lg p-4 w-full max-w-3xl mx-auto mb-3">
 			<div className="flex items-center gap-4">
@@ -24,7 +33,7 @@ const InstalledApp = ({ singleApp }) => {
 				</div>
 			</div>
 
-			<button className="bg-[#00D390] hover:bg-[#00b87b] px-4 py-2 rounded-lg font-semibold text-white transition">
+			<button onClick={() => handleUnInstall(id)} className={`${isUnInstalled}bg-[#00D390] hover:bg-[#00b87b] px-4 py-2 rounded-lg font-semibold text-white transition`}>
 				Uninstall
 			</button>
 		</div>

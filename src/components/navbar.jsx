@@ -34,7 +34,7 @@ const Navbar = () => {
 						`mr-3 font-bold ${isActive ? 'text-purple-600' : 'text-gray-700'}`
 					}
 				>
-					Installation
+					My Installed Apps
 				</NavLink>
 			</li>
 		</>

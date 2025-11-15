@@ -7,9 +7,9 @@ const EveryApp = ({ singleApp }) => {
     console.log(singleApp);
     const { image, title, downloads, reviews, id } = singleApp;
 	return (
-		<Link to={`./appdetails/${id}`}>
+		<Link to={`/appdetails/${id}`}>
 			<div>
-				<div className="card bg-base-100 w-96 shadow-lg px-5">
+				<div className="card bg-base-100 w-73 shadow-lg px-5">
 					<figure>
 						<img src={image} alt=""/>
 					</figure>

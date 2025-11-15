@@ -57,13 +57,13 @@ const EveryApps = () => {
 					</div>
 				</div>
 				<Suspense fallback={<div>Loading...</div>}>
-					<div className="grid grid-cols-1 md:grid-cols-3 gap-3 pt-4">
+					<div className="grid grid-cols-1 md:grid-cols-4 gap-3 pt-4">
 						{filteredApps.length > 0 ? (
 							filteredApps.map(singleApp => (
 								<EveryApp key={singleApp.id} singleApp={singleApp} />
 							))
 						) : (
-							<div className="col-span-full flex flex-col justify-center items-center h-[60vh]">
+							<div className="col-span-full flex flex-col justify-center items-center h-[50vh]">
 								<p className="text-gray-500 text-lg mb-4 font-bold">
 									No apps found matching your search.
 								</p>

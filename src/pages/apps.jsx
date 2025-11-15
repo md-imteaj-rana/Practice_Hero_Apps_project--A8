@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 
 const Apps = ({ appsData }) => {
 	//console.log(appsData)
-	const trendingApps = appsData.sort((a,b) => b.downloads - a.downloads).slice(0,6)
+	const trendingApps = appsData.sort((a,b) => b.downloads - a.downloads).slice(0,8)
         //console.log(trendingApps)
 	return (
 		<div>
@@ -14,7 +14,7 @@ const Apps = ({ appsData }) => {
 			</p>
 
 			<Suspense fallback={<div>Loading...</div>}>
-				<div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-4 max-w-[1250px]">
+				<div className="grid grid-cols-1 md:grid-cols-4 gap-4 p-4 max-w-[1250px]">
 					{trendingApps.map(singleApp => (
 						<App key={singleApp.id} singleApp={singleApp} />
 					))}

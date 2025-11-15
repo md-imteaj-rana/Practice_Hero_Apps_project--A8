@@ -44,7 +44,7 @@ const AppDetails = () => {
 
 	return (
 		<div>
-			<div className="card flex flex-col md:card-side bg-base-100 shadow-sm">
+			<div className="card flex flex-col md:flex-row bg-base-100 shadow-sm">
 				<figure>
 					<img src={image} alt="Movie" />
 				</figure>

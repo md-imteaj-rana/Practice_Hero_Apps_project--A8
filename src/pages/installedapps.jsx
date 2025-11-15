@@ -8,6 +8,16 @@ const InstalledApps = () => {
 	const [applist, setAppList] = useState([]);
 	const data = useLoaderData();
 
+const refreshInstalledList = () => {
+    const storedAppData = getStoredApp();
+    const convertedStoredApp = storedAppData.map(id => parseInt(id));
+    const installedAppList = data.filter(app =>
+        convertedStoredApp.includes(app.id)
+    );
+    setAppList(installedAppList);
+};
+
+
 	useEffect(() => {
 		const storedAppData = getStoredApp();
 		const convertedStoredApp = storedAppData.map(id => parseInt(id));
@@ -51,7 +61,7 @@ const InstalledApps = () => {
 
 			<div className="flex flex-wrap gap-5">
 				{applist.map(app => (
-					<InstalledApp key={app.id} singleApp={app} />
+					<InstalledApp key={app.id} singleApp={app} refreshInstalledList={refreshInstalledList}/>
 				))}
 			</div>
 		</>

@@ -26,4 +26,14 @@ const addToStoredDB = (id) => {
         
     }
 }
+
+export const removeFromStoredDB = (id) => {
+  const storedList = JSON.parse(localStorage.getItem("installed")) || [];
+
+  const updatedList = storedList.filter(itemId => itemId !== id);
+
+  localStorage.setItem("installed", JSON.stringify(updatedList));
+  toast.success("App Uninstalled Successfully!!")
+};
+
 export { addToStoredDB, getStoredApp };
